@@ -1,4 +1,71 @@
-.left {
-    background-color: black;
+input[type=text], [type=password] {
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 10em;
+    font-size: 1vw;
+    padding: 0.6em 0.6em 0.6em 1em;
+    width: 60%;
 }
 
+input[type=submit] {
+    border: none;
+    border-radius: 10em;
+    background-color: #b6b2b2;
+    width: 63%;
+    font-size: 1vw;
+    padding: 0.6em 0.6em 0.6em 1em;
+    color: white;
+    font-weight: lighter;
+}
+
+input[type=checkbox] {
+    width: 1.5vw;
+}
+
+.split {
+    display: flex;
+    text-align: center;
+}
+
+.left {
+    /* background-color: #210C26; */
+    background-image: url('Assets/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #F2F2F2;
+    width: 50%;
+    height: 35vw;
+}
+
+.left p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20%;
+    text-shadow: 1px 1px 3px #dad8d8;
+}
+
+.right {
+    background-color: #F2F2F2;
+    color: #210C26;
+    width: 50%;
+    padding:  5rem;
+}
+
+.right h1 {
+    padding: 2%;
+}
+
+.form-item {
+    padding: 1%;
+}
+
+.remember-me input, p {
+    vertical-align: middle;
+    font-size: 0.7vw;
+}
+
+.signup p, .signup a {
+    font-size: 0.7vw;
+}
