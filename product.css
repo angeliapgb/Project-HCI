@@ -1,0 +1,63 @@
+.section1{
+    background-color: var(--background-color);
+}
+
+.SubSec{
+    padding-top: 10%;
+    padding-bottom: 3%;
+    font-size: 5vw;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.moto{
+    background-color: rgb(222, 221, 226);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.moto img{
+    width: 70%;
+}
+
+.moto h3{
+    font-size: 3vw;
+}
+
+.moto h5{
+    font-size: 1.3vw;
+    padding-top: 2%;
+    color: rgb(117, 114, 114);
+}
+
+.moto h6{
+  font-size: 1vw;
+}
+
+.moto p{
+    text-align: center;
+    font-size: 3vw;
+    color: rgb(212, 58, 58);
+}
+
+.selection :hover{
+    background-color:var(--nav-color);
+    color: var(--background-color);
+    transition: 0.2s ease;
+}
+
+.section2 a{
+    width: auto;
+}
