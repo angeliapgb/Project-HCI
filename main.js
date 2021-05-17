@@ -49,3 +49,14 @@ function Dropdown()
              }
         }
  }
+
+ document.addEventListener("DOMContentLoaded", () => {
+    const kawasako = document.querySelector("#product");
+    const kawasakoProduct = document.querySelector("#kawasako-product");
+
+     document.querySelector("#kawasako").addEventListener("click", e => {
+        e.preventDefault();
+        kawasakoProduct.classList.add("grid-kawasako");
+        kawasako.classList.remove("grid-product");
+     })
+ });

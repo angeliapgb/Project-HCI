@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
+    <title>Services</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="services.css">
     <link rel="icon" href="Assets/Logo.png" type="image/icon type">
 </head>
 <body>
@@ -24,9 +24,9 @@
                     
                     <div id="Dropdown" class="dropdown-content">
                           <a href="index.html">Home</a>
-                          <a href="Product.html">Product</a>
+                          <a href="product.html">Product</a>
                           <a href="Gallery.html">Gallery</a>
-                          <a href="services.html">Services</a>
+                          <a href="Services.html">Services</a>
                     </div>
                 </div>
 
@@ -38,32 +38,36 @@
         </div>
     </header>
 
-    <menu>
-        <div class="SubSec">
-            CATALOG
-        </div>
-
-        <div class="selection">
-            <div class="moto">
-                <a href="kawasako.html">
-                <img src="assets/Kawasako.png" alt="">
-                <div class="detail">
-                    <h3>Kawasako</h3>
-                    <h5>Price</h5> <p>$24000</p>
-                </div>
+    <menu> 
+        <div class="grid-product">
+            <div class="product-item" id="product">
+                <a href="services.html" id="kawasako">
+                    <img src="Assets/Kawasako.png" alt="kawasako">
                 </a>
             </div>
-                
-                
-            <div class="moto">
-                <a href="vixian.html">
-                <img src="assets/Vixian.png" alt="">
-                <div class="detail">
-                    <h3>Vixian</h3>
-                    <h5>Price</h5> <p>$19000</p>
-                </div>
+            <div class="product-item" id="product">
+                <a href="services.html" id="vixian">
+                    <img src="Assets/Vixian.png" alt="vixian">
                 </a>
-            </div>               
+            </div>
+        </div>
+        <div class="grid-kawasako" id="kawasako-product">
+            <div class="kawasako-pict">
+                <img src="Assets/Kawasako.png" alt="kawasako">
+            </div>
+            <div class="information">
+                <form action="">
+                    <input type="number" placeholder="Quantity">
+                    <label for="">
+                        <p><input type="radio" name="color">Green</p>
+                        <p><input type="radio" name="color">Red</p>
+                        <p><input type="radio" name="color">Yellow</p>
+                    </label>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Address">
+                </form>
+            </div>
         </div>
     </menu>
 
@@ -95,6 +99,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="main.js"></script>
 </body>
 </html>
