@@ -1,0 +1,42 @@
+form {
+    padding: 10vw 5vw 5vw 5vw;
+    text-align: center;
+}
+
+.choose-product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* .choose-product {
+    display: none;
+} */
+
+.choose-product img {
+    width: 40vw;
+}
+
+.input {
+    padding: 1vw 0 0 0;
+    display: grid;
+    /* display: none; */
+}
+
+.input p {
+    padding: 0 0 1vw 0;
+}
+
+.input-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5vw;
+}
+
+/* .input-form {
+    display: none;
+} */
+
+.kawasako-pict img {
+    width: 45vw;
+}

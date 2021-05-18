@@ -1,0 +1,102 @@
+body {
+    --background-color: #D9D9D9;
+    --background-color-input: #bdb9b9;
+    --button-color: #b6b2b2;
+    --buton-color-dark: #9b9292;
+    --font-color: #f2f2f2;
+    --font-color-right: #210C26;
+    --font-shadow: #dad8d8;
+}
+
+input[type=text], [type=password] {
+    border: none;
+    background-color: var(--background-color);
+    border-radius: 1vw;
+    font-size: 1vw;
+    padding: 0.6em 0.6em 0.6em 1em;
+    width: 60%;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 1vw;
+    background-color: var(--button-color);
+    width: 63%;
+    font-size: 1vw;
+    padding: 0.6em 0.6em 0.6em 1em;
+    color: var(--font-color);
+    font-weight: lighter;
+}
+
+input[type=checkbox] {
+    width: 1.5vw;
+}
+
+.split {
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    height: 85vh;
+    
+}
+
+.left {
+    /* background-color: #210C26; */
+    background-image: url('Assets/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--font-color);
+    width: 50%;
+    height: 35vw;
+    padding-top: 5.8rem;
+    z-index: -1;
+}
+
+.left p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10% 20%;
+    text-shadow: 1px 1px 3px var(--font-shadow);
+}
+
+.right {
+    background-color: var(--font-color);
+    color: var(--font-color-right);
+    width: 50%;
+    padding-top:  7.4rem;
+}
+
+.right h1 {
+    padding: 2%;
+}
+
+.form-item {
+    padding: 1%;
+}
+
+.form-item:active {
+    transform: scale(0.98);
+}
+
+.form-input:focus {
+    background: var(--background-color-input);
+}
+
+.form-submit:active, .form-submit:hover {
+    background: var(--buton-color-dark);
+}
+
+.remember-me input, p {
+    vertical-align: middle;
+    font-size: 0.7vw;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.signup p, .signup a {
+    font-size: 0.7vw;
+}

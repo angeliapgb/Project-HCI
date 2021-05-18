@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Services.css">
+    <link rel="icon" href="Assets/Logo.png" type="image/icon type">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="Assets/Logo.png" alt="Logo">
+            </a>
+            
+                <div class="profileMenu">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <img src="Assets/Buttonn.png" id="btn1" alt="">
+                        </button>
+                        <div id="Dropdown" class="dropdown-content">
+                          <a href="index.html">Home</a>
+                          <a href="product.html">Product</a>
+                          <a href="Gallery.html">Gallery</a>
+                          <a href="Services.html">Services</a>
+                        </div>
+                    </div>
+               
+
+                    <div class="login">
+                            <a href="login.html">Login</a>
+                    </div>
+
+                </div>
+
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <div class="choose-product hide">
+                <div class="product kawasako">
+                    <button id="kawasako-btn" class="kawasako-btn">
+                        <img src="Assets/Kawasako.png" alt="kawasako">
+                    </button>
+                </div>
+                <div class="product vixian">
+                    <button id="vixian-btn" class="vixian-btn">
+                        <img src="Assets/Vixian.png" alt="vixian">
+                    </button>
+                </div>
+            </div>
+            <div class="input-form" id="input-form">
+                <div class="kawasako-pict">
+                    <img src="Assets/Kawasako.png" alt="Kawasako">
+                </div>
+                <div class="kawasako-form">
+                    <!-- <div class="input">
+                    <p><label for="bike">Choose a motorcycle:</label></p>
+                    <select name="bike" id="bike">
+                        <option value="kawasako">Kawasako</option>
+                        <option value="vixian">Vixian</option>
+                    </select>
+                    </div> -->
+                    <div class="input">
+                        <select name="color" id="color">
+                            <option value="default">Choose color</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="green">Green</option>
+                            <option value="red">Red</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <input type="number" placeholder="Quantity">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Phone">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Address">
+                    </div>
+                    <div class="input">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="info">
+            <p id="fmi">For more information</p>
+            <div class="sosmed">
+                <div class="soc">
+                    <a href="https://instagram.com">
+                        <img src="Assets/instagram.png" id="scm" alt="Instagram">
+                    </a>
+                </div>
+                <div class="soc">
+                    <a href="https://facebook.com">
+                        <img src="Assets/facebook.png" id="scm" alt="Facebook">
+                    </a>
+                </div>
+                
+                <div class="soc">
+                    <a href="https://twitter.com">
+                        <img src="Assets/twitter.png" id="scm" alt="Twitter">
+                    </a>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>&copy; Copyright 2021</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

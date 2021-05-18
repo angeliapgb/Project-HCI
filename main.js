@@ -11,7 +11,6 @@ function position(x) {
 
 function displaySlide(x) {
     var slide = document.getElementsByClassName("slider-image");
-    var dotButton = document.getElementsByClassName("dot-item");
     var index;
 
     if(x > slide.length) {
@@ -48,4 +47,27 @@ function Dropdown()
                 }
              }
         }
+ }
+
+ const kawasakoButton = document.getElementById('kawasako-btn');
+ const inputForm = document.getElementById('input-form');
+
+ kawasakoButton.addEventListener('click', showForm);
+
+ function showForm() {
+    console.log('Clicked!');
+    inputForm.classList.add('input-form');
+    kawasakoButton.classList.remove('choose-product');
+    // kawasakoButton.classList.add('choose-product');
+    // inputForm.classList.remove('input-form');
+ }
+
+const loginButton = document.getElementById('login');
+
+loginButton.addEventListener('click', redirect);
+
+//  document.getElementById("login").addEventListener("click", redirect);
+
+ function redirect() {
+   window.open("index.html");
  }
