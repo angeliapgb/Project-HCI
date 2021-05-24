@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Services</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Services.css">
     <link rel="icon" href="Assets/Logo.png" type="image/icon type">
@@ -41,7 +41,7 @@
 
     <main>
         <form action="">
-            <div class="choose-product hide">
+            <div class="choose-product" id="hide-content">
                 <div class="product kawasako">
                     <button id="kawasako-btn" class="kawasako-btn">
                         <img src="Assets/Kawasako.png" alt="kawasako">
@@ -53,40 +53,40 @@
                     </button>
                 </div>
             </div>
-            <div class="input-form" id="input-form">
-                <div class="kawasako-pict">
-                    <img src="Assets/Kawasako.png" alt="Kawasako">
+            <div class="form" id="form">
+                <div class="image-product">
+                    <div id="image-kawasako">
+                        <img src="Assets/Kawasako.png" alt="kawasako">
+                    </div>
+                    <div id="image-vixian">
+                        <img src="Assets/Vixian.png" alt="vixian">
+                    </div>
                 </div>
-                <div class="kawasako-form">
-                    <!-- <div class="input">
-                    <p><label for="bike">Choose a motorcycle:</label></p>
-                    <select name="bike" id="bike">
-                        <option value="kawasako">Kawasako</option>
-                        <option value="vixian">Vixian</option>
-                    </select>
-                    </div> -->
-                    <div class="input">
-                        <select name="color" id="color">
-                            <option value="default">Choose color</option>
-                            <option value="yellow">Yellow</option>
-                            <option value="green">Green</option>
-                            <option value="red">Red</option>
-                        </select>
-                    </div>
-                    <div class="input">
-                        <input type="number" placeholder="Quantity">
-                    </div>
-                    <div class="input">
-                        <input type="text" placeholder="Name">
-                    </div>
-                    <div class="input">
-                        <input type="text" placeholder="Phone">
-                    </div>
-                    <div class="input">
-                        <input type="text" placeholder="Address">
-                    </div>
-                    <div class="input">
-                        <input type="submit" value="Submit">
+                <div class="input-form" id="input-form">
+                    <div class="kawasako-form" id="detail-form">
+                        <div class="input">
+                            <select name="color" id="color">
+                                <option value="default">Choose color</option>
+                                <option value="yellow">Yellow</option>
+                                <option value="green">Green</option>
+                                <option value="red">Red</option>
+                            </select>
+                        </div>
+                        <div class="input">
+                            <input type="number" placeholder="Quantity">
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Phone">
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Address">
+                        </div>
+                        <div class="input">
+                            <input type="submit" value="Submit">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -119,6 +119,6 @@
             </div>
         </div>
     </footer>
-    <script src="main.js"></script>
+    <script src="services.js"></script>
 </body>
 </html>

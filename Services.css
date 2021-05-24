@@ -1,3 +1,9 @@
+body {
+    --background-color-input: #bdb9b9;
+    --button-color: #b6b2b2;
+    --buton-color-dark: #9b9292;
+}
+
 form {
     padding: 10vw 5vw 5vw 5vw;
     text-align: center;
@@ -16,26 +22,52 @@ form {
     width: 40vw;
 }
 
+.choose-product button {
+    border: none;
+    background: none;
+    border-radius: 1vw;
+}
+
+.choose-product button:hover {
+    background-color: var(--login-color);
+}
+
+#form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.image-product img {
+    width: 40vw;
+}
+
 .input {
     padding: 1vw 0 0 0;
-    display: grid;
-    /* display: none; */
 }
 
 .input p {
     padding: 0 0 1vw 0;
 }
 
-.input-form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 5vw;
+#image-kawasako, #image-vixian, #input-form {
+    display: none;
 }
 
-/* .input-form {
-    display: none;
-} */
+#color, input[type=number], input[type=text], input[type=submit] {
+    border: none;
+    background-color: var(--background-color-input);
+    border-radius: 1vw;
+    padding: 0.5vw 1vw;
+}
+
+input[type=submit] {
+    background-color: var(--button-color);
+}
+
+input[type=submit]:hover {
+    background-color: var(--buton-color-dark);
+}
 
 .kawasako-pict img {
     width: 45vw;
